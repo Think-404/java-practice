@@ -9,4 +9,8 @@ public class BeanUtils {
     public static void copyProperties(Object source, Object target) {
         throw new UnsupportedOperationException("Not implemented");
     }
+
+    public static <T> T convert(Object source, Class<T> targetClass) {
+        throw new UnsupportedOperationException("Not implemented");
+    }
 }
